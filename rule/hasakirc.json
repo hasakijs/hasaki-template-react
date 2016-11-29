@@ -1,0 +1,46 @@
+{
+  "dva-component": {
+    "describe": "generate dva component file",
+    "templates": [
+      {
+        "source": "./_template/dva-component/component.js",
+        "target": "./src/components",
+        "keepFileName": false,
+        "placeholder": "Example"
+      }
+    ]
+  },
+  "dva-model": {
+    "describe": "generate dva model file",
+    "templates": [
+      {
+        "source": "./_template/dva-model/model.js",
+        "target": "./src/models",
+        "keepFileName": false,
+        "placeholder": "Example"
+      }
+    ]
+  },
+  "dva-service": {
+    "describe": "generate dva service file",
+    "templates": [
+      {
+        "source": "./_template/dva-service/service.js",
+        "target": "./src/services",
+        "keepFileName": false,
+        "placeholder": "Example"
+      }
+    ]
+  },
+  "dva-test-component": {
+    "describe": "generate dva test component file",
+    "templates": [
+      {
+        "source": "./_template/dva-test/models/example-test.js",
+        "target": "./src/tests/models",
+        "keepFileName": false,
+        "placeholder": "example"
+      }
+    ]
+  }
+}
